@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 .action {
-  font: 700 14px 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
   color: #707070;
   text-decoration: none;
   text-transform: uppercase;
