@@ -1,14 +1,10 @@
 import React from 'react';
-import Sobre from './objects/Sobre';
-import Logo from './objects/Logo';
-import Menu from './objects/Menu';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-    <Logo />
-    <Sobre />
-    <Menu />
+      <Header />
     </>
   );
 }
