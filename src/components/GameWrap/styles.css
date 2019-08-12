@@ -1,0 +1,36 @@
+.game-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--color-zero);
+}
+
+.itens-game {
+  display: grid;
+  width: 290px;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 85px 85px 85px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-1 {
+  border-right: 4px solid var(--color-third);
+  border-bottom: 4px solid var(--color-third);
+}
+
+.style-2 {
+  border-bottom: 4px solid var(--color-third);
+}
+
+.style-3 {
+  border-right: 4px solid var(--color-third);
+}

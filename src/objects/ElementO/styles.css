@@ -1,0 +1,14 @@
+.element-wrap {
+  position: relative;
+  width: 43px;
+  height: 43px;
+  /* border: 1px solid blue; */
+}
+.element_o {
+  display: block;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 5px solid var(--color-fourth)
+}

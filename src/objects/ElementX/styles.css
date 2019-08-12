@@ -1,0 +1,29 @@
+.element-wrap {
+  position: relative;
+  width: 43px;
+  height: 43px;
+  /* border: 1px solid blue; */
+}
+
+.element_x {
+  position: absolute;
+  top: 20px;
+  left: -9px;
+  display: block;
+  width: 60.8px;
+  height: 5px;
+  border-radius: 20px;
+  background: var(--color-fourth);
+  transform: rotate(45deg);
+}
+
+.element_x:after {
+  content:'';
+  display: block;
+  width: 60.8px;
+  height: 5px;
+  background: var(--color-fourth);
+  transform: rotate(90deg);
+  border-radius: 20px;
+}
+

@@ -1,0 +1,9 @@
+.global-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.global-wrap > .game-wrap {
+  margin-top: 50px;
+}
