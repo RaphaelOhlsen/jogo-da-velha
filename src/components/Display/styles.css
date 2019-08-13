@@ -1,0 +1,9 @@
+.wrap-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-display > label {
+  margin: 6px;
+}

@@ -1,0 +1,5 @@
+.message-label {
+  font-size: var(--size-normal);
+  color: var(--color-fourth);
+  font-weight: 700;
+}

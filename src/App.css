@@ -1,1 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+.app {
+  text-align: center;
+}
+
+.app > .header {
+  margin: 0 auto 85px;
+  width: 85vw;
+}
+
+.app > .card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 90vw;
+  height: 90vw;
+}
+
+.app > .wrap-display {
+  margin: 50px auto 0;
+}
