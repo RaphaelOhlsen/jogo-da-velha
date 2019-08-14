@@ -14,7 +14,7 @@ const App = () => (
     <Header />
     <Hashtag />
     <Checkbox id="show" value="show" content="Mostrar eventos" />
-    <AboutPage />
+    {/* <AboutPage /> */}
   </main>
 );
 

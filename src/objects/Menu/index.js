@@ -1,8 +1,14 @@
 import React from 'react';
 import './styles.css';
 
+import HamburguerMenu from '../HamburguerMenu';
+import CloseMenu from '../CloseMenu';
+
 const Menu = () => (
-  <a href="#menu" className="menu"><span className="center">Menu</span></a>
+  <>
+    {/* <HamburguerMenu /> */}
+    <CloseMenu />
+  </>
 );
 
 export default Menu;

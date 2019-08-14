@@ -1,9 +1,9 @@
-.menu {
+.menu.hamburguer {
   display: block;
   text-indent: -9999px;
 }
 
-.menu::after, .menu::before, .menu > .center {
+.menu.hamburguer::after, .menu.hamburguer::before, .menu.hamburguer > .center {
   content: '';
   display: block;
   height: 4px;
@@ -12,6 +12,6 @@
   border-radius: 2px;
 }
 
-.menu::before, .menu > .center {
+.menu.hamburguer::before, .menu.hamburguer > .center {
   margin-bottom: 5px;
 }

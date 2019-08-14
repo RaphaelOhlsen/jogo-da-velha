@@ -1,0 +1,18 @@
+.menu.close {
+  display: block;
+  text-indent: -9999px;
+}
+
+.menu.close::after, .menu.close::before, .menu.close > .center {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  /* background: var(--color-fourth); */
+  background: red;
+  border-radius: 2px;
+}
+
+.menu.close::before, .menu > .center {
+  margin-bottom: 5px;
+}

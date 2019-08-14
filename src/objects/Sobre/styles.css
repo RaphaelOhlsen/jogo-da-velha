@@ -1,7 +1,14 @@
 .sobre {
   font-weight: 700;
   font-size: var(--size-small);
-  color: var(--color-fourth);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.sobre.dark {
+  color: var(--color-fourth);
+}
+
+.sobre.light {
+  color: #eee;
 }

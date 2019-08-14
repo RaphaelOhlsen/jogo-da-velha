@@ -5,4 +5,4 @@ const AboutPage = () => (
   <div className="about-page"></div>
 );
 
-export default AboutPage; 
+export default AboutPage;

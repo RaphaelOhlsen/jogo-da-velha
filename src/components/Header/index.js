@@ -9,8 +9,8 @@ import './styles.css';
 const Header = () => {
   return (
     <header className="header">
-      <Logo />
-      <Sobre />
+      <Logo image="dark"/>
+      <Sobre color="dark"/>
       <Menu />
     </header>
     
