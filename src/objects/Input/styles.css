@@ -1,7 +1,0 @@
-#label {
-  display: none;
-}
-
-#label:checked ~ .checkbox {
-  background: var(--color-first);
-}

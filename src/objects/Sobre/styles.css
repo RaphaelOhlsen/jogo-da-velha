@@ -1,6 +1,6 @@
 .sobre {
   font-weight: 700;
-  font-size: var(--size-normal);
+  font-size: var(--size-small);
   color: var(--color-fourth);
   text-decoration: none;
   text-transform: uppercase;

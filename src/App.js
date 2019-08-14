@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 
+import Checkbox from './objects/Checkbox';
+
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
-import Display from './components/Display';
+
 
 const App = () => (
-    <main className="app">
-      <Header />
-      <Hashtag />
-      <Display />
-    </main>
+  <main className="app">
+    <Header />
+    <Hashtag />
+    <Checkbox id="show" value="show" content="Mostrar eventos" />
+  </main>
 );
 
 export default App;

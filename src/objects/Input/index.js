@@ -1,8 +1,7 @@
 import React from 'react';
-import './styles.css';
 
-const Input = () => (
-  <input id="label" type="checkbox"/>
+const Input = ({id = "", value = "", type = "text"}) => (
+  <input className="input" id={id} type={type} value={value} />
 );
 
 export default Input;

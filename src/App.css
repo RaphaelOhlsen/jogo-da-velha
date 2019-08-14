@@ -9,11 +9,7 @@
 
 .app > .card {
   display: inline-block;
-  box-sizing: border-box;
   width: 90vw;
   height: 90vw;
-}
-
-.app > .wrap-display {
-  margin: 50px auto 0;
+  margin-bottom: 40px;
 }
