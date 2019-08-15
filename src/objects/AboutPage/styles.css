@@ -1,3 +1,35 @@
 .about-page {
   background-color: var(--color-nine);
 }
+
+.about-page > .header {
+  margin: 0 auto 95px;
+  width: 85vw;
+}
+
+.about-page > .avatar {
+  margin-bottom: 20px;
+}
+
+.main-aboutpage {
+  color: var(--color-zero);
+  margin-bottom: 30px;
+}
+
+.main-aboutpage > .name {
+  margin: 0 0 15px;
+  font-size: var(--size-big);
+}
+
+.main-aboutpage > p {
+  margin: 0;
+  line-height: 19px;
+  font-size: var(--size-small);
+}
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-evenly;
+  width: 300px;
+}

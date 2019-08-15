@@ -4,11 +4,14 @@ import './styles.css';
 import HamburguerMenu from '../HamburguerMenu';
 import CloseMenu from '../CloseMenu';
 
-const Menu = () => (
-  <>
-    {/* <HamburguerMenu /> */}
-    <CloseMenu />
-  </>
-);
+const Menu = ({type = 'hamburguer'}) => {
+  if (type === 'hamburguer') return <HamburguerMenu />
+  if (type === 'close') return <CloseMenu />
+  
+  return (
+    <>
+    </>
+  );
+}
 
 export default Menu;

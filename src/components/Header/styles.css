@@ -10,6 +10,10 @@
   margin-right: 10px;
 }
 
-.header > .menu {
+.header > .menu.hamburguer {
   width: 25px;
+}
+
+.header > .menu.close {
+  width: 28px;
 }

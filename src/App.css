@@ -18,8 +18,12 @@
 
 .about-page {
   width: 100vw;
-  height: 1302px;
+  height: 525px;
   position: absolute;
   z-index: 9999;
   top: 0;
+}
+
+.menu {
+  width: 25px;
 }

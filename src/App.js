@@ -4,6 +4,7 @@ import './App.css';
 import Checkbox from './objects/Checkbox';
 import AboutPage from './objects/AboutPage';
 
+
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
 
@@ -11,10 +12,11 @@ import Hashtag from './components/Hashtag';
 
 const App = () => (
   <main className="app">
-    <Header />
+    <Header type="dark"/>
     <Hashtag />
     <Checkbox id="show" value="show" content="Mostrar eventos" />
-    {/* <AboutPage /> */}
+    <AboutPage />
+ 
   </main>
 );
 
