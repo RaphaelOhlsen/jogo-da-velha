@@ -1,7 +1,12 @@
-.sobre {
+.about-link {
   font-weight: 700;
   font-size: var(--size-small);
   color: var(--color-fourth);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.about-link.-light {
+  color: var(--color-zero);
+
 }
