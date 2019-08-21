@@ -1,0 +1,13 @@
+.tag-game {
+  font-size: var(--size-small);
+  font-weight: 700;
+  color: #3a4042;
+  border-radius: 2em;
+  background-color:var(--color-zero);
+  padding: var(--spacing-verysmall) var(--spacing-medium);
+}
+
+.tag-game.-end {
+  background-color: var(--color-nineth);
+  text-transform: uppercase;
+}
